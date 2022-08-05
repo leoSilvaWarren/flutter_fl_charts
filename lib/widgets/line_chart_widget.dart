@@ -60,31 +60,6 @@ class LineChartWidget extends StatelessWidget {
                           Colors.red.withOpacity(0.0),
                         ]),
                   )),
-              LineChartBarData(
-                  spots: const [
-                    FlSpot(0, 3),
-                    FlSpot(2, 25),
-                    FlSpot(4, 30),
-                    FlSpot(6, 20),
-                    FlSpot(8, 45),
-                    FlSpot(10, 35),
-                    FlSpot(11, 55),
-                  ],
-                  isStrokeCapRound: true,
-                  dotData: FlDotData(
-                    show: false,
-                  ),
-                  color: Colors.grey,
-                  belowBarData: BarAreaData(
-                    show: true,
-                    gradient: LinearGradient(
-                        begin: Alignment.topCenter,
-                        end: Alignment.bottomCenter,
-                        colors: [
-                          Colors.grey.withOpacity(0.5),
-                          Colors.grey.withOpacity(0.0),
-                        ]),
-                  )),
             ],
           ),
         ),
